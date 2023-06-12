@@ -56,3 +56,11 @@ if [ -s .john/ ]; then
 else
  echo "The file is empty"
 fi
+
+#mimeapps.list: Default applications
+echo "Default Applications List (Limit: 50)"
+cat -n 50 mimeapps.list
+
+##Additional actions:
+#cat ~/.cache/ 
+#cat ~/.cache/
