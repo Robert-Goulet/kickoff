@@ -58,14 +58,14 @@ else
 fi
   
 #.john/: John the Ripper password-cracking history with discovered passwords
-echo "John the Ripper password-cracking history with discovered passwords"
-stat ~/.john/
-cat ~/.john/
-if [ -s ~/.john/ ]; then
- echo "The file is not empty"
-else
- echo "The file is empty"
-fi
+#echo "John the Ripper password-cracking history with discovered passwords"
+#stat ~/.john/
+#cat ~/.john/
+#if [ -s ~/.john/ ]; then
+ #echo "The file is not empty"
+#else
+ #echo "The file is empty"
+#fi
 
 #mimeapps.list: Default applications
 echo "Default Applications List (Limit: 50)"
